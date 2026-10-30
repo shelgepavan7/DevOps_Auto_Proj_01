@@ -16,5 +16,5 @@ COPY . .
 # Expose port 9090 inside the container
 EXPOSE 9090
 
-# Command to run the app
+# Command to run the application
 CMD ["node", "app.js"]
